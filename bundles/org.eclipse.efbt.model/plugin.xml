@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/column_transformation_logic"
+            class="column_transformation_logic.Column_transformation_logicPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="column_transformation_logic"
+            class="column_transformation_logic.util.Column_transformation_logicResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/cubes"
+            class="cubes.CubesPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="cubes"
+            class="cubes.util.CubesResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/core"
+            class="core.CorePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="core"
+            class="core.util.CoreResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/functions"
+            class="functions.FunctionsPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="functions"
+            class="functions.util.FunctionsResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/attribute_lineage"
+            class="attribute_lineage.Attribute_lineagePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="attribute_lineage"
+            class="attribute_lineage.util.Attribute_lineageResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/row_transformation_logic"
+            class="row_transformation_logic.Row_transformation_logicPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="row_transformation_logic"
+            class="row_transformation_logic.util.Row_transformation_logicResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/cube_transformation_logic"
+            class="cube_transformation_logic.Cube_transformation_logicPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="cube_transformation_logic"
+            class="cube_transformation_logic.util.Cube_transformation_logicResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/module_management"
+            class="module_management.Module_managementPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="module_management"
+            class="module_management.util.Module_managementResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/cube_data"
+            class="cube_data.Cube_dataPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="cube_data"
+            class="cube_data.util.Cube_dataResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/base_cube_data"
+            class="base_cube_data.Base_cube_dataPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="base_cube_data"
+            class="base_cube_data.util.Base_cube_dataResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/bird_model"
+            class="bird_model.Bird_modelPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="bird_model"
+            class="bird_model.util.Bird_modelResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/efbt_data_definition"
+            class="efbt_data_definition.Efbt_data_definitionPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="efbt_data_definition"
+            class="efbt_data_definition.util.Efbt_data_definitionResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/data_definition"
+            class="data_definition.Data_definitionPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="data_definition"
+            class="data_definition.util.Data_definitionResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/efbt_mapping"
+            class="efbt_mapping.Efbt_mappingPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="efbt_mapping"
+            class="efbt_mapping.util.Efbt_mappingResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/mapping"
+            class="mapping.MappingPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="mapping"
+            class="mapping.util.MappingResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/efbt_vtl_transformation"
+            class="efbt_vtl_transformation.Efbt_vtl_transformationPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="efbt_vtl_transformation"
+            class="efbt_vtl_transformation.util.Efbt_vtl_transformationResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/vtl_transformation"
+            class="vtl_transformation.Vtl_transformationPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="vtl_transformation"
+            class="vtl_transformation.util.Vtl_transformationResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/cube_schema"
+            class="cube_schema.Cube_schemaPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="cube_schema"
+            class="cube_schema.util.Cube_schemaResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/data_lineage"
+            class="data_lineage.Data_lineagePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="data_lineage"
+            class="data_lineage.util.Data_lineageResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/transformation"
+            class="transformation.TransformationPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="transformation"
+            class="transformation.util.TransformationResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/navigation_context"
+            class="navigation_context.Navigation_contextPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="navigation_context"
+            class="navigation_context.util.Navigation_contextResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/trl_report_cell_views"
+            class="trl_report_cell_views.Trl_report_cell_viewsPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="trl_report_cell_views"
+            class="trl_report_cell_views.util.Trl_report_cell_viewsResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/trl_sql_views"
+            class="trl_sql_views.Trl_sql_viewsPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="trl_sql_views"
+            class="trl_sql_views.util.Trl_sql_viewsResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/reports"
+            class="reports.ReportsPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="reports"
+            class="reports.util.ReportsResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/rendering"
+            class="rendering.RenderingPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="rendering"
+            class="rendering.util.RenderingResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated efbt -->
+      <package
+            uri="http://www.eclipse.org/platform_call"
+            class="platform_call.Platform_callPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated efbt -->
+      <parser
+            type="platform_call"
+            class="platform_call.util.Platform_callResourceFactoryImpl"/>
+   </extension>
+</plugin>

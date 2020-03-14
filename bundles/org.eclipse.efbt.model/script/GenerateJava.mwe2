@@ -1,0 +1,32 @@
+module GenerateJava
+
+import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl
+import org.eclipse.emf.mwe.utils.*
+import org.eclipse.xtext.ecore.*
+
+
+var projectName = "org.eclipse.efbt.model"
+var workspace = ".."
+var rootPath = "${workspace}"
+var modelName = "efbt"
+
+Workflow {
+	
+	bean = org.eclipse.emf.mwe.utils.StandaloneSetup {
+		scanClassPath = true
+		platformUri = "../.."
+		registerGenModelFile = "${rootPath}/${projectName}/${modelName}.genmodel"
+	}
+	
+	
+	component = org.eclipse.emf.mwe2.ecore.EcoreGenerator {
+	
+		genModel = "${rootPath}/${projectName}/${modelName}.genmodel"
+		srcPath = "${rootPath}/${projectName}/src"
+		generateEdit = true
+		generateEditor = true
+		
+	}
+}
+
+

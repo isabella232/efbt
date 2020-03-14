@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.efbt.sdk_0.0.0.jar" id="org.eclipse.efbt.sdk" version="0.0.0">
+      <category name="org.eclipse.efbt"/>
+   </feature>
+   <category-def name="org.eclipse.efbt" label="Eclipse Free BIRD Tools"/>
+</site>

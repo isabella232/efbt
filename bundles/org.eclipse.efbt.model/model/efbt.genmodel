@@ -33,6 +33,8 @@
       <details key="http://www.eclipse.org/trl_report_cell_views" value="trl_report_cell_views.xsd"/>
       <details key="http://www.eclipse.org/trl_sql_views" value="trl_sql_views.xsd"/>
       <details key="http://www.eclipse.org/vtl_transformation" value="vtl_transformation.xsd"/>
+    </genAnnotations>
+    <genAnnotations source="selectedReferencedPackages">
       <details key="http://www.eclipse.org/emf/2002/Ecore" value="Ecore.xsd"/>
     </genAnnotations>
     <details key="directoryURI" value="../xsd_model/"/>
@@ -66,9 +68,7 @@
   <genPackages prefix="Attribute_lineage" resource="XML" disposableProviderFactory="true"
       ecorePackage="attribute_lineage.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/attribute_lineage.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/attribute_lineage.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="attribute_lineage.ecore#//AttributeLineageModel">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference attribute_lineage.ecore#//AttributeLineageModel/rowTransformations"/>
@@ -83,9 +83,7 @@
   <genPackages prefix="Base_cube_data" resource="XML" disposableProviderFactory="true"
       ecorePackage="base_cube_data.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/base_cube_data.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/base_cube_data.xsd"/>
     </genAnnotations>
     <genClasses image="false" ecoreClass="base_cube_data.ecore#//BaseCell"/>
     <genClasses ecoreClass="base_cube_data.ecore#//BaseCellWithEnumeratedValue">
@@ -115,9 +113,7 @@
   </genPackages>
   <genPackages prefix="Bird_model" disposableProviderFactory="true" ecorePackage="bird_model.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/bird_model.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/bird_model.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="bird_model.ecore#//BIRDModel">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference bird_model.ecore#//BIRDModel/domains"/>
@@ -133,9 +129,7 @@
   <genPackages prefix="Column_transformation_logic" resource="XML" disposableProviderFactory="true"
       ecorePackage="column_transformation_logic.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/column_transformation_logic.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/column_transformation_logic.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="column_transformation_logic.ecore#//AggregateColumnFunction">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference column_transformation_logic.ecore#//AggregateColumnFunction/aggregateFunction"/>
@@ -154,9 +148,7 @@
   </genPackages>
   <genPackages prefix="Core" resource="XML" disposableProviderFactory="true" ecorePackage="core.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/core.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/core.xsd"/>
     </genAnnotations>
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="core.ecore#//FACET_VALUE_TYPE">
       <genEnumLiterals ecoreEnumLiteral="core.ecore#//FACET_VALUE_TYPE/BigInteger"/>
@@ -294,9 +286,7 @@
   <genPackages prefix="Cube_data" resource="XML" disposableProviderFactory="true"
       ecorePackage="cube_data.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/cube_data.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/cube_data.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="cube_data.ecore#//Cell">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cube_data.ecore#//Cell/cellID"/>
@@ -315,9 +305,7 @@
   <genPackages prefix="Cube_schema" resource="XML" disposableProviderFactory="true"
       ecorePackage="cube_schema.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/cube_schema.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/cube_schema.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="cube_schema.ecore#//CubeSchema">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cube_schema.ecore#//CubeSchema/cube"/>
@@ -328,9 +316,7 @@
   <genPackages prefix="Cube_transformation_logic" resource="XML" disposableProviderFactory="true"
       ecorePackage="cube_transformation_logic.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/cube_transformation_logic.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/cube_transformation_logic.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="cube_transformation_logic.ecore#//CustomRowFunction">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cube_transformation_logic.ecore#//CustomRowFunction/dependantVariables"/>
@@ -364,9 +350,7 @@
   </genPackages>
   <genPackages prefix="Cubes" resource="XML" disposableProviderFactory="true" ecorePackage="cubes.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/cubes.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/cubes.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="cubes.ecore#//BaseCube"/>
     <genClasses ecoreClass="cubes.ecore#//FreeBirdToolsCube">
@@ -383,9 +367,7 @@
   <genPackages prefix="Data_definition" resource="XML" disposableProviderFactory="true"
       ecorePackage="data_definition.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/data_definition.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/data_definition.xsd"/>
     </genAnnotations>
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="data_definition.ecore#//TYP_DMNSN">
       <genEnumLiterals ecoreEnumLiteral="data_definition.ecore#//TYP_DMNSN/B"/>
@@ -527,9 +509,7 @@
   <genPackages prefix="Data_lineage" resource="XML" disposableProviderFactory="true"
       ecorePackage="data_lineage.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/data_lineage.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/data_lineage.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="data_lineage.ecore#//DataLineageModel">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference data_lineage.ecore#//DataLineageModel/dataTraceableByCell"/>
@@ -555,9 +535,7 @@
   <genPackages prefix="Efbt_data_definition" resource="XML" disposableProviderFactory="true"
       ecorePackage="efbt_data_definition.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/efbt_data_definition.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/efbt_data_definition.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="efbt_data_definition.ecore#//CombinationModule">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference efbt_data_definition.ecore#//CombinationModule/combinations"/>
@@ -585,9 +563,7 @@
   </genPackages>
   <genPackages prefix="Efbt_mapping" disposableProviderFactory="true" ecorePackage="efbt_mapping.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/efbt_mapping.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/efbt_mapping.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="efbt_mapping.ecore#//MappingDefinitionModule">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference efbt_mapping.ecore#//MappingDefinitionModule/mappings"/>
@@ -604,9 +580,7 @@
   </genPackages>
   <genPackages prefix="Efbt_vtl_transformation" disposableProviderFactory="true" ecorePackage="efbt_vtl_transformation.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/efbt_vtl_transformation.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/efbt_vtl_transformation.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="efbt_vtl_transformation.ecore#//TransformationSchemeModule">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference efbt_vtl_transformation.ecore#//TransformationSchemeModule/schemes"/>
@@ -618,9 +592,7 @@
   <genPackages prefix="Functions" resource="XML" disposableProviderFactory="true"
       ecorePackage="functions.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/functions.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/functions.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="functions.ecore#//AggregateFunction">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference functions.ecore#//AggregateFunction/functionSpec"/>
@@ -672,9 +644,7 @@
   </genPackages>
   <genPackages prefix="Mapping" disposableProviderFactory="true" ecorePackage="mapping.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/mapping.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/mapping.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="mapping.ecore#//CUBE_MAPPING">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute mapping.ecore#//CUBE_MAPPING/cube_mapping_id"/>
@@ -729,9 +699,7 @@
   <genPackages prefix="Module_management" resource="XML" disposableProviderFactory="true"
       ecorePackage="module_management.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/module_management.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/module_management.xsd"/>
     </genAnnotations>
     <genClasses image="false" ecoreClass="module_management.ecore#//Module">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference module_management.ecore#//Module/dependencies"/>
@@ -752,9 +720,7 @@
   <genPackages prefix="Navigation_context" resource="XML" disposableProviderFactory="true"
       ecorePackage="navigation_context.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/navigation_context.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/navigation_context.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="navigation_context.ecore#//NavigationContext">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference navigation_context.ecore#//NavigationContext/transformationContext"/>
@@ -766,9 +732,7 @@
   <genPackages prefix="Platform_call" resource="XML" disposableProviderFactory="true"
       ecorePackage="platform_call.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/platform_call.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/platform_call.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="platform_call.ecore#//CompareAttributeLineageModels">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform_call.ecore#//CompareAttributeLineageModels/resultingModel"/>
@@ -808,9 +772,7 @@
   <genPackages prefix="Rendering" resource="XML" disposableProviderFactory="true"
       ecorePackage="rendering.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/rendering.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/rendering.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="rendering.ecore#//AXIS">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute rendering.ecore#//AXIS/axis_id"/>
@@ -865,9 +827,7 @@
   </genPackages>
   <genPackages prefix="Reports" resource="XML" disposableProviderFactory="true" ecorePackage="reports.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/reports.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/reports.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="reports.ecore#//AxisModule">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference reports.ecore#//AxisModule/axes"/>
@@ -903,9 +863,7 @@
   <genPackages prefix="Row_transformation_logic" resource="XML" disposableProviderFactory="true"
       ecorePackage="row_transformation_logic.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/row_transformation_logic.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/row_transformation_logic.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="row_transformation_logic.ecore#//BaseRowStructure">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference row_transformation_logic.ecore#//BaseRowStructure/columns"/>
@@ -924,9 +882,7 @@
   <genPackages prefix="Transformation" resource="XML" disposableProviderFactory="true"
       ecorePackage="transformation.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/transformation.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/transformation.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="transformation.ecore#//DataSetTransformation">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference transformation.ecore#//DataSetTransformation/cube"/>
@@ -962,9 +918,7 @@
   <genPackages prefix="Trl_report_cell_views" resource="XML" disposableProviderFactory="true"
       ecorePackage="trl_report_cell_views.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/trl_report_cell_views.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/trl_report_cell_views.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="trl_report_cell_views.ecore#//ReportCellView">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference trl_report_cell_views.ecore#//ReportCellView/reportCell"/>
@@ -977,9 +931,7 @@
   <genPackages prefix="Trl_sql_views" resource="XML" disposableProviderFactory="true"
       ecorePackage="trl_sql_views.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/trl_sql_views.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/trl_sql_views.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="trl_sql_views.ecore#//AggregateEnrichmentView">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference trl_sql_views.ecore#//AggregateEnrichmentView/functions"/>
@@ -1033,9 +985,7 @@
   </genPackages>
   <genPackages prefix="Vtl_transformation" disposableProviderFactory="true" ecorePackage="vtl_transformation.ecore#/">
     <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/exporter/org.eclipse.xsd.ecore.exporter">
-      <genAnnotations source="../xsd_model/vtl_transformation.xsd">
-        <details key="http://www.eclipse.org/emf/2002/Ecore" value="../xsd_model/Ecore.xsd"/>
-      </genAnnotations>
+      <genAnnotations source="../xsd_model/vtl_transformation.xsd"/>
     </genAnnotations>
     <genClasses ecoreClass="vtl_transformation.ecore#//TRANSFORMATION_SCHEME">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vtl_transformation.ecore#//TRANSFORMATION_SCHEME/transformation_scheme_id"/>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.efbt.sdk"
+      label="Eclipse Free BIRD Tools Feature "
+      version="1.0.0.qualifier">
+
+   <requires>
+      <import feature="org.eclipse.xtext.runtime" version="2.8.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.efbt.model"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.efbt.generator.scala"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.efbt.model.util"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.efbt.importer"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.efbt.importer.birdaccessdb"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+     
+
+      <plugin
+         id="org.eclipse.efbt.parser.vtl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>  
+         
+      <plugin
+         id="org.eclipse.efbt.model.design"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+            
+
+</feature>
