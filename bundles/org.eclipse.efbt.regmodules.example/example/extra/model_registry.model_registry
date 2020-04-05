@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model_registry:ModelRegistry xmlns:model_registry="http://www.eclipse.org/model_registry">
+  <birdArtefactList/>
+  <attributeLineageModelList/>
+  <birdandALMList/>
+  <fullDataLineageModelList/>
+  <inputLayerOnlyDLMList/>
+  <tripleList/>
+  <releaseList>
+    <releases cubeSchemaModules="input_layer_cubes.transformation#readInExampleData" datasetTransformationModules="data_set_transformations.trl_sql_views#processExampleData" name="release1" reportCellViewModules="reportcell_definitions.trl_report_cell_views#createReportCells" license="Copyright (c) 2020 Bird Software Solutions Ltd&amp;#xA; All rights reserved. This file and the accompanying materials are made available under the terms of the Eclipse Public License v2.0 which accompanies this distribution, and is available at http://www.eclipse.org/legal/epl-v20.html&amp;#xA;&amp;#xA;SPDX-License-Identifier: EPL-2.0 &amp;#xA;&amp;#xA; Contributors:&amp;#xA; Neil Mackenzie - initial API and implementation&amp;#xD;" version="1"/>
+  </releaseList>
+  <releaseAndALMPairList/>
+</model_registry:ModelRegistry>

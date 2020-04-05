@@ -128,9 +128,9 @@ public class GeneratorStandaloneSetup  implements ISetup {
 		Resource.Factory.Registry.INSTANCE.getExtensionToFactoryMap().put("efbt_vtl_transformation", resourceFactory);
 		Resource.Factory.Registry.INSTANCE.getExtensionToFactoryMap().put("mapping", resourceFactory);
 		Resource.Factory.Registry.INSTANCE.getExtensionToFactoryMap().put("vtl_transformation", resourceFactory);
+		Resource.Factory.Registry.INSTANCE.getExtensionToFactoryMap().put("model_registry", resourceFactory);
 		
-		
-
+		org.eclipse.xtext.resource.IResourceServiceProvider.Registry.INSTANCE.getExtensionToFactoryMap().put("model_registry", serviceProvider);
 		org.eclipse.xtext.resource.IResourceServiceProvider.Registry.INSTANCE.getExtensionToFactoryMap().put("data_definition", serviceProvider);
 		org.eclipse.xtext.resource.IResourceServiceProvider.Registry.INSTANCE.getExtensionToFactoryMap().put("core", serviceProvider);
 		

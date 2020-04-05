@@ -23,6 +23,9 @@ import attribute_lineage.AttributeLineageModel;
 import attribute_lineage.Attribute_lineageFactory;
 import column_transformation_logic.ColumnFunction;
 import functions.CubeColumn;
+import model_registry.ModelRegistry;
+import model_registry.Model_registryFactory;
+import model_registry.ReleaseAndAttributeLineageModelPair;
 import cube_schema.CubeSchema;
 import cube_transformation_logic.CubeTransformationLogic;
 import cubes.FreeBirdToolsCube;
@@ -444,7 +447,16 @@ public static void createAttributeLineageModel(GetAttributeLineageModel call) {
   // delete the old row logic group and build the new one.
   call.eUnset(call.eClass().getEStructuralFeature(Platform_callPackage.GET_ATTRIBUTE_LINEAGE_MODEL__RESULTING_MODEL));
   AttributeLineageModel attributeLineageModel = Attribute_lineageFactory.eINSTANCE.createAttributeLineageModel();
-  call.setResultingModel(attributeLineageModel);
+  ModelRegistry modelRegistry = Util.getModelRegistry(call);
+  
+  modelRegistry.getAttributeLineageModelList().getAttributeLineageModels().add(attributeLineageModel);
+  
+  ReleaseAndAttributeLineageModelPair pair = Model_registryFactory.eINSTANCE.createReleaseAndAttributeLineageModelPair();
+  pair.setAttributeLineageModel(attributeLineageModel);
+  pair.setRelease(call.getTransformationContext()); 
+  modelRegistry.getReleaseAndALMPairList().getList().add(pair);
+  
+ // call.setResultingModel(attributeLineageModel);
   // we should create the set of useful functions
   SpecialFunctionSpecs specialFunctions = Util.setSpecialFucntions(attributeLineageModel);
 

@@ -12,13 +12,19 @@
  *******************************************************************************/
 package org.eclipse.efbt.component.common.util;
 
+import java.io.File;
 import java.util.Iterator;
 
 import org.eclipse.emf.common.util.BasicEList;
 import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.common.util.TreeIterator;
+import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.resource.Resource;
+import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.emf.ecore.util.EcoreUtil;
+
+import model_registry.ModelRegistry;
 
 import attribute_lineage.AttributeLineageModel;
 import efbt_data_definition.CubeModule;
@@ -43,6 +49,7 @@ import functions.Function;
 import functions.FunctionsFactory;
 import functions.ResolvedCubeColumnParameter;
 import functions.SpeculativeCubeColumnParameter;
+import navigation_context.NavigationContext;
 import row_transformation_logic.BaseRowStructure;
 import cube_transformation_logic.CubeTransformationLogic;
 import row_transformation_logic.Row_transformation_logicFactory;
@@ -56,6 +63,21 @@ import transformation.VersionedFunctionalModuleLogic;
  *
  */
 public class Util {
+	/**
+	   * Returns the ModelRegistry
+	   * @param o
+	   * @return
+	   */
+	  public static ModelRegistry getModelRegistry(EObject o) {
+	    ResourceSet rs = o.eResource().getResourceSet();
+	    String tagsXMLFile = o.eResource().getURI().trimSegments(2)
+	        + "/extra/model_registry.model_registry";
+	    File file = new File(tagsXMLFile);
+	    URI uri = file.isFile() ? URI.createFileURI(file.getAbsolutePath()) : URI.createURI(tagsXMLFile);
+	    Resource resource = rs.getResource(uri, true);
+	    return (ModelRegistry) resource.getContents().get(0);
+
+	  }
 
   /**
    * Get the list of VersionedCubeSchemaModule associated with a
