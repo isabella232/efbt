@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated column_structured_data -->
+      <package
+            uri="http://www.eclipse.org/base_column_structured_data"
+            class="base_column_structured_data.Base_column_structured_dataPackage"
+            genModel="model/column_structured_data.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated column_structured_data -->
+      <parser
+            type="base_column_structured_data"
+            class="base_column_structured_data.util.Base_column_structured_dataResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated column_structured_data -->
+      <package
+            uri="http://www.eclipse.org/column_structured_data"
+            class="column_structured_data.Column_structured_dataPackage"
+            genModel="model/column_structured_data.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated column_structured_data -->
+      <parser
+            type="column_structured_data"
+            class="column_structured_data.util.Column_structured_dataResourceFactoryImpl"/>
+   </extension>
+
+</plugin>

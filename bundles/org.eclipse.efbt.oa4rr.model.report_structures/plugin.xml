@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated report_structures -->
+      <package
+            uri="http://www.eclipse.org/report_structures"
+            class="report_structures.Report_structuresPackage"
+            genModel="model/report_structures.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated report_structures -->
+      <parser
+            type="report_structures"
+            class="report_structures.util.Report_structuresResourceFactoryImpl"/>
+   </extension>
+
+</plugin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated model_registry -->
+      <package
+            uri="http://www.eclipse.org/model_registry"
+            class="model_registry.Model_registryPackage"
+            genModel="model/model_registry.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated model_registry -->
+      <parser
+            type="model_registry"
+            class="model_registry.util.Model_registryResourceFactoryImpl"/>
+   </extension>
+
+</plugin>

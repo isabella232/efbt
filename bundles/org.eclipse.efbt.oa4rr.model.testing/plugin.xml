@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated testing -->
+      <package
+            uri="http://www.eclipse.org/functional_module"
+            class="functional_module.Functional_modulePackage"
+            genModel="model/testing.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated testing -->
+      <parser
+            type="functional_module"
+            class="functional_module.util.Functional_moduleResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated testing -->
+      <package
+            uri="http://www.eclipse.org/requirements_text"
+            class="requirements_text.Requirements_textPackage"
+            genModel="model/testing.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated testing -->
+      <parser
+            type="requirements_text"
+            class="requirements_text.util.Requirements_textResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated testing -->
+      <package
+            uri="http://www.eclipse.org/scenarios"
+            class="scenarios.ScenariosPackage"
+            genModel="model/testing.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated testing -->
+      <parser
+            type="scenarios"
+            class="scenarios.util.ScenariosResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated testing -->
+      <package
+            uri="http://www.eclipse.org/tags"
+            class="tags.TagsPackage"
+            genModel="model/testing.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated testing -->
+      <parser
+            type="tags"
+            class="tags.util.TagsResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated testing -->
+      <package
+            uri="http://www.eclipse.org/test"
+            class="test.TestPackage"
+            genModel="model/testing.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated testing -->
+      <parser
+            type="test"
+            class="test.util.TestResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated testing -->
+      <package
+            uri="http://www.eclipse.org/user"
+            class="user.UserPackage"
+            genModel="model/testing.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated testing -->
+      <parser
+            type="user"
+            class="user.util.UserResourceFactoryImpl"/>
+   </extension>
+
+</plugin>
